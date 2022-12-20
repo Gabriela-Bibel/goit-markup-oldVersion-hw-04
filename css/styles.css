@@ -1,0 +1,290 @@
+:root {
+  --color-blue: #2196f3;
+  --color-navy: #2f303a;
+  --color-grey: #757575;
+  --color-white: #ffffff;
+  --color-black: #212121;
+  --color-border: #ececec;
+  --color-teamsectionbackground: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-nav {
+  border-bottom: 2px solid var(--color-border);
+  padding: 24px 0 25px;
+}
+
+.section {
+  padding: 94px auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-nav-flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.portfolio-nav-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px auto;
+  gap: 0px 8px;
+}
+
+.description-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 140px auto;
+}
+
+.description-box {
+  width: calc(100% / 4);
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin: 140px auto;
+}
+
+.team-bgcolour {
+  background-color: var(--color-teamsectionbackground);
+  padding: 90px 0px;
+}
+
+.tile-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-flex {
+  flex-wrap: wrap;
+  padding: 10px 0px;
+  margin: 65px auto;
+}
+
+.portfolio-img {
+  width: 370px;
+  height: 294px;
+  vertical-align: middle;
+}
+
+.tile {
+  background: var(--color-white);
+  padding: 5px;
+  box-shadow: 0 0 2px var(--color-grey);
+  border-radius: 0 0 mixed;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.portfolio-tile {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 24.43px;
+  padding-bottom: 20px;
+  border-style: none solid solid solid;
+  border-width: 2px;
+  border-color: var(--color-teamsectionbackground);
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-grey);
+}
+
+.active-link {
+  text-decoration: none;
+  color: var(--color-blue);
+  font-weight: 500;
+  font-style: normal;
+  line-height: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-black);
+  font-weight: 500;
+  font-style: normal;
+  line-height: auto;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.link:hover,
+.link:focus,
+.footer-link:hover,
+.footer-link.focus,
+.nav-link:hover,
+.nav-link:focus,
+.active-link:hover,
+.active-link:focus {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.order {
+  background-color: var(--color-navy);
+  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
+    url('../images/headerBackground.jpg');
+  max-width: 1600px;
+  padding: 140px 226px;
+  text-align: center;
+}
+
+.catchphrase {
+  font-size: 2.75rem;
+  color: var(--color-white);
+  margin-bottom: 24px;
+}
+
+.headline {
+  font-size: 2.25rem;
+  color: var(--color-black);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.625rem;
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: bold;
+  line-height: auto;
+}
+
+.header-logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.625rem;
+  color: var(--color-black);
+  font-weight: bold;
+  line-height: auto;
+}
+
+.order-button {
+  max-width: 199px;
+  height: 50px;
+  padding: 10px 41px;
+  border-radius: 4px;
+}
+
+.button {
+  color: var(--color-black);
+  background-color: var(--color-teamsectionbackground);
+  width: 94.76px;
+  height: 37.97px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.active-button,
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.footer {
+  color: var(--color-white);
+  font-size: 0.875rem;
+  font-style: normal;
+  background-color: var(--color-navy);
+}
+
+.blue-web {
+  color: var(--color-blue);
+}
+
+.title {
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  line-height: 1.714;
+}
+
+.tm-name {
+  color: var(--color-black);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tm-role {
+  font-size: 1rem;
+}
+
+.project-name {
+  color: var(--color-black);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.project-type {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.875;
+}

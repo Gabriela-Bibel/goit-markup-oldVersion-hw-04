@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+#files and folders ignored by GIT
+.vscode
+.idea
+.DS_Store
+node_modules
+.env
+build/
