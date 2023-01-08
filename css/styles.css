@@ -137,20 +137,21 @@ a {
   color: var(--color-grey);
 }
 
-.active-link {
-  text-decoration: none;
-  color: var(--color-blue);
-  font-weight: 500;
-  font-style: normal;
-  line-height: auto;
+.link svg {
+  fill: var(--color-grey);
+  margin-right: 10px;
+  vertical-align: middle;
 }
-
 .nav-link {
   text-decoration: none;
   color: var(--color-black);
   font-weight: 500;
   font-style: normal;
   line-height: auto;
+}
+
+.active-link {
+  color: var(--color-blue);
 }
 
 .footer-link {
@@ -161,15 +162,17 @@ a {
   line-height: 1.7;
 }
 
-.link:hover,
-.link:focus,
 .footer-link:hover,
 .footer-link.focus,
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:focus {
+  color: var(--color-blue);
+  cursor: pointer;
+  fill: var(--color-blue);
+}
+
 .active-link:hover,
 .active-link:focus {
-  color: var(--color-blue);
   cursor: pointer;
 }
 
